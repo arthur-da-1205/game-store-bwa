@@ -1,4 +1,4 @@
-import SidebarItem from "../../molecules/SidebarItem";
+import SidebarItem from "../../../molecules/SidebarItem";
 
 export default function SidebarMenu() {
   return (
