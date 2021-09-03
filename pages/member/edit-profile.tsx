@@ -15,7 +15,7 @@ export default function EditProfile() {
             <h2 className="fw-bold text-xl color-palette-1 m-0">Shayna Anne</h2>
             <p className="color-palette-2 m-0">shayna@anne.com</p>
           </div>
-          <SidebarMember />
+          <SidebarMember activeMenu="settings" />
         </div>
       </section>
       <main className="main-wrapper">
