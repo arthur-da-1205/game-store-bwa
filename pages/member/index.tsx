@@ -1,6 +1,6 @@
-import OverviewContent from "../../components/organisms/Member/OverviewContent";
-import Overview from "../../components/organisms/Member/OverviewContent";
-import Category from "../../components/organisms/Member/OverviewContent/Category";
+import OverviewContent from "../../components/organisms/Member/Overview";
+import Overview from "../../components/organisms/Member/Overview";
+import Category from "../../components/organisms/Member/Overview/Category";
 import SidebarMember from "../../components/organisms/Member/SidebarMember";
 
 export default function Member() {

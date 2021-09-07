@@ -15,7 +15,7 @@ export default function FormInput(props: FormInputProps) {
         id="name"
         name="name"
         aria-describedby="name"
-        placeholder="Enter your name"
+        placeholder={placeholder}
         {...nativeProps}
       />
     </>
