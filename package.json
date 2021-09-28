@@ -2,18 +2,25 @@
   "name": "gg-gaming-store",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://arthur-da-1205.github.io/game-store-bwa",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "heroku-postbuild": "yarn run build"
   },
   "dependencies": {
     "@types/aos": "^3.0.4",
     "aos": "^3.0.0-beta.6",
     "classnames": "^2.3.1",
+    "eslint-plugin-node": "^11.1.0",
+    "gh-pages": "^3.2.3",
+    "gh-pages-deploy": "^0.5.1",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
